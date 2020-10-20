@@ -10,11 +10,11 @@ spec:
           serviceName: wear-service
           servicePort: 8080 
         path: /wear  
-		pathType: ImplemenationSpecific
+	pathType: ImplemenationSpecific
         backend:
           serviceName: video-service
           servicePort: 8080
-		path: /stream
-		pathType: ImplemenationSpecific	
+	path: /stream
+	pathType: ImplemenationSpecific	
             
 
