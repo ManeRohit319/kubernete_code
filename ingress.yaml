@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-
+   name: Rohit_dumb_hai
 spec:
   rules:
     http:
@@ -10,11 +10,11 @@ spec:
           serviceName: wear-service
           servicePort: 8080 
         path: /wear  
-	pathType: ImplemenationSpecific
+        pathType: ImplemenationSpecific
         backend:
           serviceName: video-service
           servicePort: 8080
-	path: /stream
-	pathType: ImplemenationSpecific	
+        path: /stream
+        pathType: ImplemenationSpecific	
             
 
