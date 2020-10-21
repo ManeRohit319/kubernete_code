@@ -2,6 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
    name: Rohit_dumb_hai
+   annotations: nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
     http:
